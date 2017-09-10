@@ -221,7 +221,20 @@ main {
 }
 .sales-item__action-time--big {
   position: absolute;
-  display: none;
+  top: -10px;
+  text-align: center;
+  right: 5%;
+  color: #3a3a43;
+  font-weight: bold;
+  font-size: 16px;
+}
+.sales-item__timer--big {
+  color: #ffcc02;
+  background-color: #3a3a43;
+  padding: 5px 10px;
+  border-radius: 5%;
+  margin-top: 5px;
+  display: block;
 }
 .sales-item__duration--big {
   padding: 5px 10px;
