@@ -190,6 +190,18 @@ main {
 .sidebar__deskr {
   font-size: 14px;
 }
+.main-sales {
+  margin-right: 20px;
+  border: 1px solid #cccccc;
+  padding-left: 30px;
+}
+.main-sales__breadcrumb {
+  color: #0072be;
+}
+.main-sales__breadcrumb a {
+  text-decoration: none;
+  color: #0072be;
+}
 .sales-list {
   /*display: flex;*/
 }
