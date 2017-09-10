@@ -1,0 +1,72 @@
+
+.login {
+  display: flex;
+  justify-content: flex-end;
+
+  &__item {
+    margin-left: 40px;
+  }
+
+  &__item a {
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 14px;
+  }
+
+  &__item--underline a {
+    border-bottom: 1px #cccccc dotted;
+  }
+
+  &__item--active a {
+  color: white;
+  font-weight: bold;
+  }
+
+  &__item--enter-icon {
+    position: relative;
+  }
+
+  &__item--enter-icon::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 15px;
+    top: 4px;
+    left: -17px;
+    background-image: url("src/img/header-icons.png");
+    background-repeat: no-repeat;
+    background-position: left 29%;
+  }
+
+  &__item--register-icon {
+    position: relative;
+  }
+
+  &__item--register-icon::before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 0;
+    left: -19px;
+    background-image: url("src/img/header-icons.png");
+    background-repeat: no-repeat;
+    background-position: left 56%;
+  }
+
+  &__item--advert-icon {
+    position: relative;
+  }
+
+  &__item--advert-icon::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 2px;
+    left: -19px;
+    background-image: url("src/img/header-icons.png");
+    background-repeat: no-repeat;
+    background-position: 78% top;
+  }
+}
