@@ -159,6 +159,12 @@ main {
   width: 250px;
   height: 40px;
 }
+.page-content {
+  padding-left: 25px;
+  padding-top: 15px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
 .page-sidebar {
   width: 250px;
 }
@@ -183,4 +189,7 @@ main {
 }
 .sidebar__deskr {
   font-size: 14px;
+}
+.sales-list {
+  /*display: flex;*/
 }
