@@ -8,6 +8,10 @@ ul {
   margin: 0;
   padding: 0;
 }
+main {
+  display: flex;
+  justify-content: space-between;
+}
 .page-header {
   width: 100%;
 }
@@ -148,13 +152,35 @@ ul {
 .main-menu__item--orange a {
   color: #ff6633;
 }
-.logo--header-size {
-  max-width: 190px;
-}
 .advertisment {
   background-color: black;
 }
 .advertisment--header-size {
   width: 250px;
   height: 40px;
+}
+.page-sidebar {
+  width: 250px;
+}
+.sidebar {
+  padding-top: 30px;
+  border-left: 1px solid #cccccc;
+}
+.sidebar__item {
+  width: 229px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid #cccccc;
+  padding-top: 10px;
+}
+.sidebar__image {
+  width: 230px;
+  height: 160px;
+  border: 1px solid #cccccc;
+}
+.sidebar__title {
+  font-size: 16px;
+}
+.sidebar__deskr {
+  font-size: 14px;
 }
