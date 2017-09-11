@@ -40,6 +40,10 @@ a {
   padding: 6px 25px;
   align-items: center;
 }
+.navigation__logo {
+  max-width: 190px;
+  min-width: 190px;
+}
 .navigation--black {
   background-color: black;
 }
@@ -49,7 +53,6 @@ a {
   z-index: 100;
   width: 100%;
   box-sizing: border-box;
-  top: 30px;
   height: 52px;
 }
 .login {
@@ -181,6 +184,7 @@ a {
 .sidebar {
   padding-top: 30px;
   border-left: 1px solid #cccccc;
+  background-color: #ebebed;
 }
 .sidebar__item {
   width: 229px;
@@ -233,7 +237,7 @@ a {
 }
 .sales-item {
   position: relative;
-  min-height: 230px;
+  min-height: 200px;
 }
 .sales-item--big {
   width: 100%;
@@ -342,14 +346,18 @@ a {
 .sales-item__img {
   float: left;
   width: 33%;
+  height: 180px;
 }
 .sales-item__img--big {
   width: 41%;
+  height: auto;
 }
 .sales-item__img--small {
   float: none;
-  width: 100%;
-  height: 50%;
+  height: 200px;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
 }
 .sales-item__deskr,
 .sales-item__details {
