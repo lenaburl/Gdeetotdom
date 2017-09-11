@@ -296,6 +296,7 @@ main {
 .sales-item__duration--big {
   position: absolute;
   top: 100px;
+  left: 0;
 }
 .sales-item__img {
   float: left;
