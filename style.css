@@ -46,6 +46,8 @@ main {
   z-index: 100;
   width: 100%;
   box-sizing: border-box;
+  top: 30px;
+  height: 52px;
 }
 .login {
   display: flex;
@@ -165,12 +167,13 @@ main {
 }
 .page-content {
   padding-left: 25px;
-  padding-top: 15px;
+  padding-top: 65px;
   padding-right: 25px;
   margin: 0 auto;
 }
 .page-sidebar {
   width: 250px;
+  padding-top: 50px;
 }
 .sidebar {
   padding-top: 30px;
