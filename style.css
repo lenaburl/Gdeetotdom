@@ -236,6 +236,9 @@ main {
   margin-bottom: 20px;
   min-height: 270px;
 }
+.sales-item--small:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
 .sales-item__title {
   float: left;
   font-size: 16px;
