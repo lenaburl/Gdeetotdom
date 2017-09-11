@@ -162,8 +162,7 @@ main {
 .page-content {
   padding-left: 25px;
   padding-top: 15px;
-  max-width: 976px;
-  min-width: 740px;
+  padding-right: 25px;
   margin: 0 auto;
 }
 .page-sidebar {
@@ -192,10 +191,13 @@ main {
   font-size: 14px;
 }
 .main-sales {
-  margin-right: 20px;
   border: 1px solid #cccccc;
   padding-left: 30px;
   padding-right: 30px;
+  max-width: 976px;
+  min-width: 740px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 .main-sales__breadcrumb {
   color: #0072be;
@@ -210,6 +212,15 @@ main {
 .sales-list {
   width: 100%;
 }
+.sales-list--small {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 976px;
+  min-width: 740px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 .sales-item {
   position: relative;
   min-height: 230px;
@@ -218,6 +229,12 @@ main {
   width: 100%;
   min-height: 450px;
   border-bottom: 1px solid #cccccc;
+}
+.sales-item--small {
+  width: 31%;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+  min-height: 270px;
 }
 .sales-item__title {
   float: left;
@@ -232,6 +249,11 @@ main {
   font-size: 24px;
   width: 70%;
   margin-bottom: 90px;
+}
+.sales-item__title--small {
+  float: none;
+  width: 95%;
+  margin-left: 5%;
 }
 .sales-item__action-time {
   position: absolute;
@@ -298,12 +320,23 @@ main {
   top: 100px;
   left: 0;
 }
+.sales-item__duration--small {
+  position: relative;
+  left: 0;
+  top: 0;
+  margin-left: 5%;
+}
 .sales-item__img {
   float: left;
   width: 33%;
 }
 .sales-item__img--big {
   width: 41%;
+}
+.sales-item__img--small {
+  float: none;
+  width: 100%;
+  height: 50%;
 }
 .sales-item__deskr,
 .sales-item__details {
